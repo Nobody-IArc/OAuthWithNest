@@ -1,3 +1,5 @@
+## 기존 Auth 코드를 이용하며 Google Login 기능 추가한 코드들
+___
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="120" alt="Nest Logo" /></a>
 </p>
