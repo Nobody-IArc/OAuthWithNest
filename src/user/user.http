@@ -1,0 +1,35 @@
+### Create
+POST http://localhost:3000/user/create
+content-type: application/json
+
+{
+  "username": "Arthur",
+  "password": "Red2",
+  "email": "arthur@red.com"
+}
+
+### GetUser
+GET http://localhost:3000/user/getUser/arthur@red.com
+
+### UpdateUser
+PUT http://localhost:3000/user/update/arthur@red.com
+content-type: application/json
+
+{
+  "email": "arthur@red.com",
+  "username": "Morgan",
+  "password": "RDR2"
+}
+
+### DeleteUser
+DELETE http://localhost:3000/user/delete/arthur@red.com
+
+### Wrong Email
+POST http://localhost:3000/user/create
+content-type: application/json
+
+{
+  "username": "Wrong Name",
+  "password": "Wrong Password",
+  "email": "Wrong Email"
+}
